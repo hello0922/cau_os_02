@@ -1,7 +1,17 @@
-hw_score  = int(input("Homework:"))
-att_score = int(input("Attendance:"))
-mid_score = int(input("Mid-term exam:"))
-fin_score = int(input("Final exam:"))
+# %%
+length = float(input())
+width  = float(input())
+height = float(input())
 
-total_score = hw_score + att_score + mid_score + fin_score
-print("Total score:", total_score)
+total_length = length + width + height
+
+if total_length <= 80:
+    fee = 5000
+elif total_length <= 100:
+    fee = 8000
+elif total_length <= 120:
+    fee = 10000
+elif total_length <= 160:
+    fee = 13000
+else:
+    fee = 1000000000000000
