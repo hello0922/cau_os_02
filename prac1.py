@@ -5,6 +5,8 @@ height = float(input())
 
 total_length = length + width + height
 
+asdnfjlkasnfklasnflkasnflkanfklanfklanfkladsnlk
+
 if total_length <= 80:
     fee = 500000
 elif total_length <= 100:
